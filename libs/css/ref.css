@@ -1,0 +1,20 @@
+my-ref {
+    line-height : 1em;
+    -moz-isolate : -moz-isolate;
+    position : relative;
+    font-size : 75%;
+    vertical-align : baseline;  
+    top : -0.5em;
+}
+
+my-ref a, .text-decoration-none {
+    text-decoration : none;
+}
+
+my-ref a:hover, .text-decoration-none:hover {
+    text-decoration : underline;
+}
+
+.references {
+    margin-top : 2em;
+}
