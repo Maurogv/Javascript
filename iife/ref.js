@@ -8,13 +8,13 @@
 
    newScript = document.createElement('script');
    newScript.async = 1;
-   newScript.src = 'https://rawgit.com/Maurogv/ajax/master/lib/js/ref.js';
+   newScript.src = 'https://rawgit.com/Maurogv/ajax/master/libs/js/ref.js';
    scriptTag = document.getElementsByTagName('script')[0];
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
 
    newLink = document.createElement('link');
    newLink.async = 1;
-   newLink.href = 'https://rawgit.com/Maurogv/ajax/master/lib/css/ref.css';
+   newLink.href = 'https://rawgit.com/Maurogv/ajax/master/libs/css/ref.css';
    newLink.type = 'text/css';
    newLink.rel = 'stylesheet';
    headTag = document.getElementsByTagName('head')[0];
