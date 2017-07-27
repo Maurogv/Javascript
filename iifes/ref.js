@@ -14,7 +14,7 @@
 
    newLink = document.createElement('link');
    newLink.async = 1;
-   newLink.href = 'https://rawgit.com/Maurogv/ajax/master/libs/css/ref.css';
+   newLink.href = 'https://rawgit.com/Maurogv/ajax/master/css/ref.css';
    newLink.type = 'text/css';
    newLink.rel = 'stylesheet';
    headTag = document.getElementsByTagName('head')[0];
