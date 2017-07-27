@@ -18,3 +18,8 @@ my-ref a:hover, .text-decoration-none:hover {
 .references {
     margin-top : 2em;
 }
+
+.references li {
+    font-size : 90%;
+    font-family : sans-serif;
+}
