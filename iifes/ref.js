@@ -2,19 +2,19 @@
  
    newScript = document.createElement('script');
    newScript.async = 1;
-   newScript.src = 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js';
+   newScript.src = 'https://ajax.googleapis.com/javascript/libs/jquery/2.1.3/jquery.min.js';
    scriptTag = document.getElementsByTagName('script')[0];
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
 
    newScript = document.createElement('script');
    newScript.async = 1;
-   newScript.src = 'https://rawgit.com/Maurogv/ajax/master/libs/js/ref.js';
+   newScript.src = 'https://rawgit.com/Maurogv/javascript/master/libs/js/ref.js';
    scriptTag = document.getElementsByTagName('script')[0];
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
 
    newLink = document.createElement('link');
    newLink.async = 1;
-   newLink.href = 'https://rawgit.com/Maurogv/ajax/master/css/ref.css';
+   newLink.href = 'https://rawgit.com/Maurogv/javascript/master/css/ref.css';
    newLink.type = 'text/css';
    newLink.rel = 'stylesheet';
    headTag = document.getElementsByTagName('head')[0];
