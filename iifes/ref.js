@@ -2,7 +2,7 @@
  
    newScript = document.createElement('script');
    newScript.async = 1;
-   newScript.src = 'https://ajax.googleapis.com/javascript/libs/jquery/2.1.3/jquery.min.js';
+   newScript.src = 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js';
    scriptTag = document.getElementsByTagName('script')[0];
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
 
