@@ -7,7 +7,7 @@
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
 
    newScript = document.createElement('script');
-   newScript.async = 1;
+   /* newScript.async = 1; */
    newScript.src = 'https://rawgit.com/Maurogv/javascript/master/libs/ref.js';
    scriptTag = document.getElementsByTagName('script')[0];
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
