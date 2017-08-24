@@ -15,10 +15,6 @@ my-ref a:hover, .text-decoration-none:hover {
     text-decoration : underline;
 }
 
-.references {
-    margin-top : 2em;
-}
-
 .references li {
     font-size : 90%;
 }
