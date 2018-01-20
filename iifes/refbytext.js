@@ -8,7 +8,7 @@
 
    newScript = document.createElement('script');
    newScript.async = 1;
-   newScript.src = 'https://rawgit.com/Maurogv/javascript/master/libs/refbytext.js';
+   newScript.src = 'https://cdn.rawgit.com/Maurogv/javascript/775fb528/libs/refbytext.js';
    scriptTag = document.getElementsByTagName('script')[0];
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
 
