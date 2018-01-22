@@ -1,7 +1,8 @@
 (function (window) {
 
-    var references = function () {          
-        $("*:contains('[^]')").each(function (index) {
+    var references = function () {
+        text = '[^]';
+        $("*:contains(" + text + ")").each(function (index) {
             $(this).text("");
             var a = $("a");
             a.attr("href", "#cite_note-" + (index + 1) + "> [" + (index + 1) + "]");
