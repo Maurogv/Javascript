@@ -4,7 +4,7 @@
         if ( $("*").has('my-ref').length == 0 ) {
             text = '[^]';
             $("*:contains(" + text + ")").html(function(_, html) {
-                return html.replace(/(cow)/g, '<my-ref>$1</my-ref>');
+                return html.replace(text, '<my-ref>' + text + '</my-ref>');
             });
         }
         
