@@ -1,7 +1,7 @@
 (function (window) {
 
     var references = function () { 
-        if ( $(*).has('my-ref').length == 0) {
+        if ( $(*).has('my-ref').length == 0 ) {
             text = '[^]';
             
         }
