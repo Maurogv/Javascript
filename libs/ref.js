@@ -1,6 +1,7 @@
 (function (window) {
 
     var references = function () { 
+        // for parser that delete non-html tags
         if ( $("*").has('my-ref').length == 0 ) {
             text = '[^]';
             $("*:contains(" + text + ")").html(function(_, html) {
