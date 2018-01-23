@@ -1,6 +1,13 @@
 (function (window) {
 
-    var references = function () {          
+    var references = function () { 
+        if ( $(*).has('my-ref').length == 0) {
+            text = '[^]';
+            $("*:contains([^])").html(function(_, html) {
+                return html.replace(/([^])/g, '<my-ref>$1</my-ref>');
+            });
+        }
+        
         $("my-ref").each(function (index) {
             $(this).attr("id", "cite_ref-" + (index + 1));
             $(this).text("");
