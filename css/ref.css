@@ -8,7 +8,7 @@ my-ref {
 }
 
 my-ref a, .text-decoration-none {
-    text-decoration : none;
+    text-decoration : none !important;
 }
 
 my-ref a:hover, .text-decoration-none:hover {
