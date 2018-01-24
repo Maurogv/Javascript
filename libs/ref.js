@@ -5,8 +5,8 @@
         if ( $("*").has('my-ref').length == 0 ) {
             text = '[^]';
             $("*:contains(" + text + ")").html(function(_, html) {
-                return html.split(text).join("<my-ref>" + text + "</my-ref>");
-               // return html.replace(/(\[\^\])/g, '<my-ref>$1</my-ref>');
+              //  return html.split(text).join("<my-ref>" + text + "</my-ref>");
+               return html.replace(/(\[\^\])/g, '<my-ref>$1</my-ref>');
             });
         }
         
