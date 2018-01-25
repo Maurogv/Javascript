@@ -5,8 +5,10 @@
         if ( $("*").has('my-ref').length == 0 ) {
             text = '[^]';
             $("*:contains(" + text + ")").html(function(_, html) {
-              //  return html.split(text).join("<my-ref>" + text + "</my-ref>");
-               return html.replace(/(\[\^\])/g, '<my-ref>$1</my-ref>');
+              //1  return html.split(text).join("<my-ref>" + text + "</my-ref>");
+               var re = new RegExp(text,"g");
+               return html.replace(re, '<my-ref>$1</my-ref>');
+              //3 return html.replace(/(\[\^\])/g, '<my-ref>$1</my-ref>');
             });
         }
         
