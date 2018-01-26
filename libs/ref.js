@@ -9,7 +9,7 @@
               //2  var re = new RegExp(text.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"),"g");
               //  return html.replace(re, '<my-ref>$1</my-ref>');
               //3 return html.replace(/(\[\^\])/g, '<my-ref>$1</my-ref>');
-                return html.replace(/(\[\^\])/g, 'ciao';
+                return html.replace(/(\[\^\])/g, 'ciao');
             });
         }
         
