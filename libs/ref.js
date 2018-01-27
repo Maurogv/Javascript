@@ -4,7 +4,7 @@
         // for parser that delete non-html tags
         if ( $("*").has('my-ref').length == 0 ) {
             text = '[^]';
-            $("*:contains(" + text + ")").html(function(_, html) {
+            $("div:contains(" + text + ")").html(function(_, html) {
               //1  return html.split(text).join("<my-ref>" + text + "</my-ref>");
               //2  var re = new RegExp(text.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"),"g");
               //  return html.replace(re, '<my-ref>$1</my-ref>');
