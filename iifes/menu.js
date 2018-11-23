@@ -25,7 +25,7 @@
   // Start polling...
   checkReady(function ($) { 
     // Use $ here...
-    window.references(); 
+    window.menu(); 
   }) 
      
 })(window, document)
