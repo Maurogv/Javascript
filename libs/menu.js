@@ -1,6 +1,6 @@
 (function (window) {
 
-    var references = function () { 
+    var menu = function () { 
         var tag = "h3"
         if ( $("*").has('h2').length > 0 )  tag = "h2";
          
@@ -15,6 +15,6 @@
        }
     }
 
-    window.references = references;
+    window.menu = menu;
 
 })(window);
