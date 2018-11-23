@@ -11,7 +11,7 @@
             div.append("<a href=#" + $(this).text().replace(' ', '_') + ">" + $(this).text() + "</a>");
         });
        if (!div.is(':empty')){
-          div.insertBefore($("tag").first())
+          div.insertBefore($(tag).first())
        }
     }
 
