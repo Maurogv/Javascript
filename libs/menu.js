@@ -6,7 +6,7 @@
          
         var div = $("<div></div>");
         $("tag").each(function (index) {
-            $(this).attr("id", $(this).text().replace(' ', '_');
+            $(this).attr("id", $(this).text().replace(' ', '_'));
             if (!div.is(':empty')) div.append(' | ');
             div.append("<a href=#" + $(this).text().replace(' ', '_') + ">" + $(this).text() + "</a>");
         });
