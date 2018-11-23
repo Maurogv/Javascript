@@ -8,7 +8,7 @@
  
    newScript = document.createElement('script');
    newScript.async = 1;
-   newScript.src = 'https://rawgit.com/Maurogv/javascript/master/libs/menu.js';
+   newScript.src = 'https://maurogv.github.io/javascript/iifes/menu.js';
    scriptTag = document.getElementsByTagName('script')[0];
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
     	
