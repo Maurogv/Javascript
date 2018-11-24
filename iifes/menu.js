@@ -23,7 +23,7 @@
   };
 
   // Start polling...
-  checkReady(function ($) { 
+  checkReady2(function ($) { 
     // Use $ here...
     window.menu(); 
   }) 
