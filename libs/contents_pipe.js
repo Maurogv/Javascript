@@ -15,6 +15,6 @@
        }
     }
 
-    window.contents_row = contents_row;
+    window.contents_pipe = contents_pipe;
 
 })(window);
