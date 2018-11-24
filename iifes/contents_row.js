@@ -25,7 +25,7 @@
   // Start polling...
   checkReady2(function ($) { 
     // Use $ here...
-    window.content_row(); 
+    window.contents_row(); 
   }) 
      
 })(window, document)
