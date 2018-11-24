@@ -36,6 +36,6 @@
     window.references(); 
   }) 
  
-  windoes.checkReady = checkReady;
+  window.checkReady = checkReady;
      
 })(window, document)
