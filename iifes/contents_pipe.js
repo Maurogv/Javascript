@@ -8,7 +8,7 @@
  
    newScript = document.createElement('script');
    newScript.async = 1;
-   newScript.src = 'https://maurogv.github.io/javascript/libs/menu.js';
+   newScript.src = 'https://maurogv.github.io/javascript/libs/contents_pipe.js';
    scriptTag = document.getElementsByTagName('script')[0];
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
     	
