@@ -35,7 +35,5 @@
     // Use $ here...
     window.references(); 
   }) 
- 
-  window.checkReady = checkReady;
      
 })(window, document)
