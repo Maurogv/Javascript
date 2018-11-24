@@ -13,17 +13,17 @@
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
     	
   // Poll for jQuery to come into existance
-  /* var checkReady2 = function (callback) {
+  var checkReady2 = function (callback) {
     if (window.jQuery) {
       callback(jQuery);
     }
     else {
       window.setTimeout(function () { checkReady2(callback); }, 100);
     }
-  }; */
+  };
 
   // Start polling...
-  window.checkReady(function ($) { 
+  checkReady(function ($) { 
     // Use $ here...
     window.menu(); 
   }) 
