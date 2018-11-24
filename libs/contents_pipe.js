@@ -1,6 +1,6 @@
 (function (window) {
 
-    var menu = function () { 
+    var contents_pipe = function () { 
         var tag = "h3";
         if ( $("*").has('h2').length > 0 )  tag = "h2";
          
