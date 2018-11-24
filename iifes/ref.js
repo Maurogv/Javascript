@@ -21,7 +21,7 @@
    scriptTag.parentNode.insertBefore(newScript, scriptTag);
     	
   // Poll for jQuery to come into existance
-  var checkReady = function (callback) {
+  checkReady = function (callback) {
     if (window.jQuery) {
       callback(jQuery);
     }
