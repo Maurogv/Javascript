@@ -23,7 +23,7 @@
   }; */
 
   // Start polling...
-  checkReady(function ($) { 
+  window.checkReady(function ($) { 
     // Use $ here...
     window.menu(); 
   }) 
