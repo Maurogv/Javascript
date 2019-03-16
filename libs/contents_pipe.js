@@ -6,9 +6,9 @@
          
         var div = $("<div></div>");
         $(tag).each(function (index) {
-            $(this).attr("id", $(this).text().replace(/ /g, '_'));
+            $(this).attr("id", $(this).text().toLowerCase().replace(/ /g, '_'));
             if (!div.is(':empty')) div.append(' | ');
-            div.append("<a href=#" + $(this).text().replace(/ /g, '_') + ">" + $(this).text() + "</a>");
+            div.append("<a href=#" + $(this).text().toLowerCase().replace(/ /g, '_') + ">" + $(this).text() + "</a>");
         });
        if (!div.is(':empty')){
           div.insertBefore($(tag).first())
